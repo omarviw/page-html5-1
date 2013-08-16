@@ -1,0 +1,132 @@
+
+body{
+
+	padding: 0 0 0 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 16px;
+	font-family:sans-serif;
+	width: 100%;
+	margin: 0;
+
+
+}
+
+header{
+	width: 100%;
+	height: 40px;
+	background: #ed4732;
+	color: white;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	
+
+	
+
+
+}
+
+ul{
+
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+ul a{
+
+	color: white;
+	text-decoration: none;
+
+}
+ul, ol{
+	list-style: none;
+}
+
+.navegation{
+
+	
+	width: 1000px;
+	margin: 0 auto;
+	
+	
+}
+
+ nav .nave li a{
+
+	
+	color: white;
+	padding: 10px 30px;
+	
+	display: block;
+
+	
+}
+
+nav .nave > li {
+ float: left;
+	
+}
+
+ nav .nave li a:hover{
+
+	
+	color: white;
+	padding: 10px 30px;
+	
+	display: block;
+
+	
+}
+
+nav .nave li ul {
+
+	display:none ;
+	position: absolute;
+	min-width: 180px;
+	background: black;
+}
+
+nav .nave li ul li a:hover{
+
+	background: #434343;
+}
+
+nav .nave  li:hover > ul{
+  display: block;
+
+}
+
+ .nave li  ul li {
+	position: relative;
+
+}
+.nave li ul li ul  {
+
+	right: -180px;
+	top: 0px;
+
+
+}
+
+
+section{
+
+	padding-top: 50px;
+}
+
+.container{
+	width: 1250px;
+	margin: 0 auto;
+}
+
+.text1{
+
+	width: 600px;
+}
+
+h1{
+	font-size: 33px;
+}
